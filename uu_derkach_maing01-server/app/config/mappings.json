@@ -1,0 +1,66 @@
+{
+  "{vendor}-{uuApp}-{uuSubApp}": {
+    "useCaseMap": {
+      "sys/uuAppWorkspace/init": {
+        "realization": "api/controllers/DerkachMainController.init",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "defaultUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "sys/uuAppWorkspace/initUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "owner/create": {
+        "realization": "api/controllers/OwnerController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "create/delete": {
+        "realization": "api/controllers/CreateController.delete",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "car/create": {
+        "realization": "api/controllers/CarController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "person/create": {
+        "realization": "api/controllers/PersonController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "person/update": {
+        "realization": "api/controllers/PersonController.update",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "car/list": {
+        "realization": "api/controllers/CarController.list",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "car/update": {
+        "realization": "api/controllers/CarController.update",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "owner/list": {
+        "realization": "api/controllers/OwnerController.list",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "owner/delete": {
+        "realization": "api/controllers/OwnerController.delete",
+        "httpMethod": "POST",
+        "type": "CMD"
+      }
+    }
+  }
+}
